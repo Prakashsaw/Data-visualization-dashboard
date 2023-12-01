@@ -1,10 +1,12 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
+import fs from "fs"
 
 // import from files
 import dashboardRoute from "./routes/dashboardRoute.js";
 import connectDB from "./config/connectDB.js";
+import { importDataToMongoDB } from "./importDataToMongoDB.js";
 
 //setting up config.env file so that we can use content of it
 dotenv.config();
@@ -24,6 +26,11 @@ app.use(express.urlencoded({ extended: true }));
 
 //set 'credentials: true' to pass --> headers, cookies, etc to browser/frontend
 app.use(cors());
+
+
+// Importing jsondata.json into mongoDB database
+// Execute this file only once...
+// importDataToMongoDB();
 
 // route splitting
 app.use("/api/data", dashboardRoute);
