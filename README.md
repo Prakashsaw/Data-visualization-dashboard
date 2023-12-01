@@ -1,3 +1,3 @@
 # Data Visualization Dashboard
 
-## This project is a Data Visualization Dashboard that uses the MERN Stack to create visualizations. The project uses given JSON data to create a MongoDB database and create an API in node.js to retrieve the data. The visualizations are created using chart.js library. The dashboard has various filters like end year, topics, region, and other controls that can be added from the data. The project aims to generate insights from creative visualizations.
+### This project is a Data Visualization Dashboard that uses the MERN Stack to create visualizations. The project uses given JSON data to create a MongoDB database and create an API in node.js to retrieve the data. The visualizations are created using chart.js library. The dashboard has various filters like end year, topics, region, and other controls that can be added from the data. The project aims to generate insights from creative visualizations.
