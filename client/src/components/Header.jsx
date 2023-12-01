@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Header = () => {
     return (
         <>
-            <Navbar bg="primary" variant="dark">
+            <Navbar sticky = "top" bg="primary" variant="dark">
                 <Container>
                     <Navbar.Brand>Data Visualization Dashboard</Navbar.Brand>
                 </Container>

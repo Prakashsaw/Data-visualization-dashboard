@@ -5,6 +5,7 @@ import "./App.css";
 //import from files
 import Header from "./components/Header";
 import Tabsrow from "./components/Tabsrow";
+import Footer from "./components/Footer";
 
 function App() {
   //state to save data received from the server
@@ -31,6 +32,7 @@ function App() {
     <div>
       <Header />
       <Tabsrow data={mainData} setMainData={setMainData} />
+      <Footer />
     </div>
   );
 }

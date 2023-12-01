@@ -46,13 +46,20 @@ const Filters = ({ setMainData }) => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item eventKey="1">2014</Dropdown.Item>
-          <Dropdown.Item eventKey="2">2015</Dropdown.Item>
-          <Dropdown.Item eventKey="3">2016</Dropdown.Item>
-          <Dropdown.Item eventKey="4">2017</Dropdown.Item>
-          <Dropdown.Item eventKey="5">2018</Dropdown.Item>
-          <Dropdown.Item eventKey="6">2019</Dropdown.Item>
+          <Dropdown.Item eventKey="1">2010</Dropdown.Item>
+          <Dropdown.Item eventKey="2">2011</Dropdown.Item>
+          <Dropdown.Item eventKey="3">2012</Dropdown.Item>
+          <Dropdown.Item eventKey="4">2013</Dropdown.Item>
+          <Dropdown.Item eventKey="5">2014</Dropdown.Item>
+          <Dropdown.Item eventKey="6">2015</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2016</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2017</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2018</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2019</Dropdown.Item>
           <Dropdown.Item eventKey="7">2020</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2021</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2022</Dropdown.Item>
+          <Dropdown.Item eventKey="7">2023</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
